@@ -1,0 +1,118 @@
+site_name: Open WebUI Docs
+site_url: ""
+
+docs_dir: docs
+
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
+
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+  palette:
+    - scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Open WebUI: index.md
+
+  - Project:
+      - Design Guidelines: brand.md
+      - Mission: mission.md
+      - Roadmap: roadmap.md
+      - Security: security.md
+      - Sponsorships: sponsorships.md
+      - Team: team.md
+      - License: license.md
+      - FAQ: faq.md
+      - Contributing: contributing.md
+
+  - Getting Started:
+      - Overview: getting-started/index.md
+      - Quick Start: getting-started/quick-start/index.md
+      - Advanced Topics: getting-started/advanced-topics/index.md
+      - Environment Config: getting-started/env-configuration.md
+      - API Endpoints: getting-started/api-endpoints.md
+      - Updating: getting-started/updating.md
+
+  - Features:
+      - Overview: features/index.md
+      - MCP: features/mcp.md
+      - Memory: features/memory.md
+      - Notes: features/notes.md
+
+      - Chat Features: features/chat-features/index.md
+      - Pipelines: features/pipelines/index.md
+      - Plugins: features/plugin/index.md
+      - RAG: features/rag/index.md
+      - RBAC: features/rbac/index.md
+      - Workspace: features/workspace/index.md
+      - Evaluation: features/evaluation/index.md
+
+      - Audio:
+          - STT: features/audio/speech-to-text/index.md
+          - TTS: features/audio/text-to-speech/index.md
+
+      - Image Generation: features/image-generation-and-editing/usage.md
+
+      - Web Search: features/web-search/agentic-search.md
+
+  - Enterprise:
+      - Overview: enterprise/index.md
+      - Architecture: enterprise/architecture.md
+      - Customization: enterprise/customization.md
+      - Integration: enterprise/integration.md
+      - Partners: enterprise/partners.md
+      - Security: enterprise/security.md
+      - Support: enterprise/support.md
+      - Customers: enterprise/customers/index.md
+
+  - Tutorials:
+      - Overview: tutorials/offline-mode.md
+      - Deployment: tutorials/deployment/index.md
+      - HTTPS: tutorials/https/nginx.md
+      - Integrations: tutorials/integrations/azure-openai/index.md
+      - Maintenance: tutorials/maintenance/database.md
+      - Tips: tutorials/tips/rag-tutorial.md
+
+  - Troubleshooting:
+      - Overview: troubleshooting/index.md
+      - Audio: troubleshooting/audio.md
+      - Connection Errors: troubleshooting/connection-error.md
+      - Performance: troubleshooting/performance.md
+      - Image Generation: troubleshooting/image-generation.md
+      - RAG: troubleshooting/rag.md
+      - SSO: troubleshooting/sso.md
+      - Web Search: troubleshooting/web-search.md
+
