@@ -40,7 +40,7 @@ So even though adding mcpo might at first seem like "just one more layer"—in r
 ✨ With mcpo, your local-only AI tools become cloud-ready, UI-friendly, and instantly interoperable—without changing a single line of tool server code.
 
 !!! note
-**Limitation**: Since mcpo exposes MCP tools as OpenAPI endpoints, they inherit OpenAPI's limitations—specifically, they cannot use Open WebUI's [event system](features/plugin/development/events.md) for real-time UI updates (status messages, notifications, user input prompts). These features are only available for native Python tools.
+**Limitation**: Since mcpo exposes MCP tools as OpenAPI endpoints, they inherit OpenAPI's limitations—specifically, they cannot use Open WebUI's [event system](../../development/events.md) for real-time UI updates (status messages, notifications, user input prompts). These features are only available for native Python tools.
 
 ### ✅ Quickstart: Running the Proxy Locally
 
@@ -98,7 +98,7 @@ That's it! You're now running the MCP-to-OpenAPI Proxy locally and exposing the 
 
 Feel free to replace `uvx mcp-server-time --local-timezone=America/New_York` with your preferred MCP Server command from other available MCP implementations found in the official repository.
 
-🤝 **To integrate with Open WebUI after launching the server, check our [docs](openapi-servers/open-webui/).**
+🤝 **To integrate with Open WebUI after launching the server, check our [docs](open-webui/).**
 
 ### 🚀 Accessing the Generated APIs
 

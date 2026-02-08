@@ -53,7 +53,7 @@ Actions can utilize Open WebUI's real-time event system for interactive experien
 
 ### Event Emitter (`__event_emitter__`)
 
-**For more information about Events and Event emitters, see [Events and Event Emitters](features/plugin/events/).**
+**For more information about Events and Event emitters, see [Events and Event Emitters](../development/events.md).**
 
 Send real-time updates to the frontend during action execution:
 

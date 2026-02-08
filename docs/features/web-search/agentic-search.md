@@ -135,4 +135,4 @@ For more details on how Interleaved Thinking works across all agentic tools (not
 ## Next Steps
 
 - **Save your findings**: Learn how to [save web search results directly to your Knowledge Base](save-to-knowledge.md).
-- **Troubleshoot**: If you encounter issues, check the [Web Search Troubleshooting Guide](../troubleshooting/web-search.md).
+- **Troubleshoot**: If you encounter issues, check the [Web Search Troubleshooting Guide](../../troubleshooting/web-search.md).

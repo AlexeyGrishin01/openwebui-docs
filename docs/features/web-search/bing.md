@@ -8,7 +8,7 @@ For a comprehensive list of all environment variables related to Web Search (inc
 
 !!! tip Troubleshooting
 
-Having issues with web search? Check out the [Web Search Troubleshooting Guide](../troubleshooting/web-search.md) for solutions to common problems like proxy configuration, connection timeouts, and empty content.
+Having issues with web search? Check out the [Web Search Troubleshooting Guide](../../troubleshooting/web-search.md) for solutions to common problems like proxy configuration, connection timeouts, and empty content.
 
 !!! warning
 

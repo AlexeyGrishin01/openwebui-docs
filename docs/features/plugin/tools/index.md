@@ -27,7 +27,7 @@ These are deeply integrated into Open WebUI and generally don't require external
 - **Memory**: The ability for models to remember facts about you across chats.
 - **RAG (Knowledge)**: The ability to query uploaded documents (`#`).
 
-In [**Native Mode**](#built-in-system-tools-nativeagentic-mode.md), these features are exposed as **Tools** that the model can call independently.
+In [**Native Mode**](#built-in-system-tools-nativeagentic-mode), these features are exposed as **Tools** that the model can call independently.
 
 ### 2. Workspace Tools (Custom Plugins)
 
@@ -41,7 +41,7 @@ These are **Python scripts** that run directly within the Open WebUI environment
 
 🔌 MCP is an open standard that allows LLMs to interact with external data and tools.
 - **Native HTTP MCP**: Open WebUI can connect directly to any MCP server that exposes an HTTP/SSE endpoint.
-- **MCPO (Proxy)**: Most community MCP servers use `stdio` (local command line). To use these in Open WebUI, you use the [**MCPO Proxy**](../plugin/tools/openapi-servers/mcp.md) to bridge the connection.
+- **MCPO (Proxy)**: Most community MCP servers use `stdio` (local command line). To use these in Open WebUI, you use the [**MCPO Proxy**](openapi-servers/mcp.md) to bridge the connection.
 
 ### 4. OpenAPI / Function Calling Servers
 
@@ -276,7 +276,7 @@ The **Builtin Tools** capability can be toggled on or off for each model in the 
 - **File Context** = Whether Open WebUI extracts and injects file content (RAG processing)
 - **Builtin Tools** = Whether the model gets tools to autonomously search/retrieve additional content
 
-See [File Context vs Builtin Tools](../rag/index.md#file-context-vs-builtin-tools) for a detailed comparison.
+See [File Context vs Builtin Tools](../../rag/index.md#file-context-vs-builtin-tools) for a detailed comparison.
 
 ### Interleaved Thinking 
 
