@@ -103,6 +103,6 @@ If Open WebUI can't reach Kokoro Web:
      -d ''
    ```
 
-For more troubleshooting tips, see the [Audio Troubleshooting Guide](troubleshooting/audio.md).
+For more troubleshooting tips, see the [Audio Troubleshooting Guide](../../../troubleshooting/audio.md).
 
 **Enjoy natural AI voices in your OpenWebUI conversations!**

@@ -26,7 +26,7 @@ You can search through your conversations using the global search bar in the sid
 
 ## Native Conversation Search (Agentic)
 
-When using a model with **Native Function Calling** enabled (see the [**Central Tool Calling Guide**](features/plugin/tools/index.md#tool-calling-modes-default-vs-native)), models can search through your chat history autonomously.
+When using a model with **Native Function Calling** enabled (see the [**Central Tool Calling Guide**](../plugin/tools/index.md#tool-calling-modes-default-vs-native)), models can search through your chat history autonomously.
 
 ### Available History Tools:
 

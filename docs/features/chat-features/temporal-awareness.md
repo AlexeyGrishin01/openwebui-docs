@@ -9,13 +9,13 @@ By default, Open WebUI injects temporal variables into the model's environment v
 - **`CURRENT_TIME`**: Injected as HH:MM.
 - **`CURRENT_WEEKDAY`**: (e.g., Monday, Tuesday).
 
-These variables can be manually used in [**Prompts**](features/workspace/prompts.md) or [**Model Files**](features/workspace/models.md) using the `` syntax.
+These variables can be manually used in [**Prompts**](../workspace/prompts.md) or [**Model Files**](../workspace/models.md) using the `` syntax.
 
 ---
 
 ## Native Temporal Tools (Agentic)
 
-When using a model with **Native Function Calling** enabled (see the [**Central Tool Calling Guide**](features/plugin/tools/index.md#tool-calling-modes-default-vs-native)), models gain granular control over time calculations and queries.
+When using a model with **Native Function Calling** enabled (see the [**Central Tool Calling Guide**](../plugin/tools/index.md#tool-calling-modes-default-vs-native)), models gain granular control over time calculations and queries.
 
 ### Available Time Tools:
 

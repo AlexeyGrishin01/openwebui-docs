@@ -23,7 +23,7 @@ While OpenAPI tools are powerful for extending Open WebUI with external services
 - **No real-time UI events**: OpenAPI tools cannot emit status updates, notifications, or request user input via the [event system](features/plugin/development/events.md). They communicate via standard HTTP request/response only.
 - **No streaming output**: Tool responses are returned as complete results, not streamed token-by-token.
 
-If you need real-time UI feedback (progress updates, confirmations, streaming), consider implementing your tool as a [native Python Tool](features/plugin/tools/development.md) instead.
+If you need real-time UI feedback (progress updates, confirmations, streaming), consider implementing your tool as a [native Python Tool](../development.md) instead.
 
 ## 🚀 Quickstart
 

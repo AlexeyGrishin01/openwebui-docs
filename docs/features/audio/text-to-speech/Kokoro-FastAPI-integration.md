@@ -165,4 +165,4 @@ The CPU version uses ONNX optimization and performs well for most use cases. If 
 - Ensure no other heavy processes are running on the CPU
 - The CPU version is recommended for systems without compatible NVIDIA GPUs
 
-For more troubleshooting tips, see the [Audio Troubleshooting Guide](troubleshooting/audio.md).
+For more troubleshooting tips, see the [Audio Troubleshooting Guide](../../../troubleshooting/audio.md).

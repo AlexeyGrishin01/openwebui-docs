@@ -154,7 +154,7 @@ These can also be configured in **Admin Panel > Settings > Users > Default Permi
 
 ## Native Note Management (Agentic)
 
-If you are using a model with **Native Function Calling** enabled (see the [**Central Tool Calling Guide**](features/plugin/tools/index.md#tool-calling-modes-default-vs-native)), the AI can interact with your Notes workspace autonomously using built-in system tools.
+If you are using a model with **Native Function Calling** enabled (see the [**Central Tool Calling Guide**](plugin/tools/index.md#tool-calling-modes-default-vs-native)), the AI can interact with your Notes workspace autonomously using built-in system tools.
 
 ### Available Note Tools:
 

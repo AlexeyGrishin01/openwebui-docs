@@ -43,7 +43,7 @@ These settings can be configured at **Admin Panel → Settings → Code Executio
 | `CODE_INTERPRETER_PROMPT_TEMPLATE` | (built-in) | Custom prompt template for code interpreter |
 | `CODE_INTERPRETER_BLACKLISTED_MODULES` | `""` | Comma-separated list of blocked Python modules |
 
-For Jupyter configuration, see the [Jupyter Notebook Integration](tutorials/integrations/jupyter.md) tutorial.
+For Jupyter configuration, see the [Jupyter Notebook Integration](../../../tutorials/integrations/jupyter.md) tutorial.
 
 ## Displaying Images Inline (matplotlib, etc.)
 
@@ -174,5 +174,5 @@ The image will be automatically uploaded and displayed inline in your chat.
 ## Further Reading
 
 - [Pyodide Documentation](https://pyodide.org/en/stable/)
-- [Jupyter Notebook Integration](tutorials/integrations/jupyter.md)
-- [Environment Configuration](getting-started/env-configuration.md) (search for `CODE_INTERPRETER`)
+- [Jupyter Notebook Integration](../../../tutorials/integrations/jupyter.md)
+- [Environment Configuration](../../../getting-started/env-configuration.md) (search for `CODE_INTERPRETER`)

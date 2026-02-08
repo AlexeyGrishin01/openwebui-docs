@@ -337,7 +337,7 @@ There is no standard way for storing reasoning content as part of the API payloa
 
 **Workarounds:**
 
-1. **Use a Pipe Function**: Create a custom [pipe function](features/pipelines/pipes.md) that converts Open WebUI's text-based thinking format to Anthropic's structured thinking blocks before sending requests to the Anthropic API.
+1. **Use a Pipe Function**: Create a custom [pipe function](../pipelines/pipes.md) that converts Open WebUI's text-based thinking format to Anthropic's structured thinking blocks before sending requests to the Anthropic API.
 
 2. **Disable Extended Thinking**: If you don't need extended thinking for tool-calling workflows, disable it to avoid the format mismatch.
 

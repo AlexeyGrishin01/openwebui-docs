@@ -10,9 +10,9 @@ Whether you're a startup scaling fast or a Fortune 500 managing global operation
 
 Discover how [**Samsung Semiconductor Inc.**](https://semiconductor.samsung.com/) built a secure, self-hosted AI platform using Open WebUI, reducing complex workflows from *days to hours* while maintaining strict data-security requirements.
 
-[Read the full story →](enterprise/customers/samsung-semiconductor.md)
+[Read the full story →](customers/samsung-semiconductor.md)
 
-[View all customer stories →](enterprise/customers/index.md)
+[View all customer stories →](customers/index.md)
 
 ---
 

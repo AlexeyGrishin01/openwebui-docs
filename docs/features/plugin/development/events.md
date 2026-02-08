@@ -84,7 +84,7 @@ Below is a comprehensive table of **all supported `type` values** for events, al
 | `chat:message:files`,`files`            | Set or overwrite message files (for uploads, output) | ``                                                                                     |
 | `chat:title`                                 | Set (or update) the chat conversation title          | Topic string OR ``                                                                       |
 | `chat:tags`                                  | Update the set of tags for a chat                    | Tag array or object                                                                                  |
-| `source`,`citation`                     | Add a source/citation, or code execution result      | For code: See [below.](features/plugin/development/events.md#source-or-citation-and-code-execution) |
+| `source`,`citation`                     | Add a source/citation, or code execution result      | For code: See [below.](events.md#source-or-citation-and-code-execution) |
 | `notification`                               | Show a notification ("toast") in the UI              | ``                                |
 | `confirmation` (needs `__event_call__`) | Ask for confirmation (OK/Cancel dialog)              | ``                                                                     |
 | `input` (needs `__event_call__`)        | Request simple user input ("input box" dialog)       | ``                                     |

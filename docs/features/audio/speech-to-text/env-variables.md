@@ -2,7 +2,7 @@
 
 !!! info
 
-For a complete list of all Open WebUI environment variables, see the [Environment Variable Configuration](getting-started/env-configuration) page.
+For a complete list of all Open WebUI environment variables, see the [Environment Variable Configuration](../../../getting-started/env-configuration.md) page.
 
 The following is a summary of the environment variables for speech to text (STT) and text to speech (TTS).
 
@@ -117,4 +117,4 @@ environment:
 !!! tip
 Use `host.docker.internal` on Docker Desktop (Windows/Mac) to access services on the host. On Linux, use the host IP or container networking.
 
-For troubleshooting audio issues, see the [Audio Troubleshooting Guide](troubleshooting/audio.md).
+For troubleshooting audio issues, see the [Audio Troubleshooting Guide](../../../troubleshooting/audio.md).

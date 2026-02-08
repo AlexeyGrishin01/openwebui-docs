@@ -51,7 +51,7 @@ Each tool must have type hints for arguments. The types may also be nested, such
 
 ### Valves and UserValves - (optional, but HIGHLY encouraged)
 
-Valves and UserValves are used for specifying customizable settings of the Tool, you can read more on the dedicated [Valves & UserValves page](features/plugin/development/valves.md).
+Valves and UserValves are used for specifying customizable settings of the Tool, you can read more on the dedicated [Valves & UserValves page](../development/valves.md).
 
 ### Optional Arguments
 
@@ -65,7 +65,7 @@ Below is a list of optional arguments your tools can depend on:
 - `__model__`: A dictionary with model information
 - `__oauth_token__`: A dictionary containing the user's valid, automatically refreshed OAuth token payload. This is the **new, recommended, and secure** way to access user tokens for making authenticated API calls. The dictionary typically contains `access_token`, `id_token`, and other provider-specific data.
 
-For more information about `__oauth_token__` and how to configure this token to be sent to tools, check out the OAuth section in the [environment variable docs page](getting-started/env-configuration/) and the [SSO documentation](features/auth/).
+For more information about `__oauth_token__` and how to configure this token to be sent to tools, check out the OAuth section in the [environment variable docs page](../../../getting-started/env-configuration.md) and the [SSO documentation](../../auth/sso/index.md).
 
 Just add them as argument to any method of your Tool class just like `__user__` in the example above.
 
@@ -122,7 +122,7 @@ Before using event emitters, you must understand these critical limitations:
 - **Native Mode (Agentic Mode)** (`function_calling = "native"`): **Limited event emitter support** - many event types don't work properly due to native function calling bypassing Open WebUI's custom tool processing pipeline
 
 **When to Use Each Mode:**
-For a comprehensive guide on choosing a function calling mode, including model requirements and administrator setup, refer to the [**Central Tool Calling Guide**](features/plugin/tools/index.md#tool-calling-modes-default-vs-native).
+For a comprehensive guide on choosing a function calling mode, including model requirements and administrator setup, refer to the [**Central Tool Calling Guide**](index.md#tool-calling-modes-default-vs-native).
 
 In general:
 - **Use Default Mode** when you need full event emitter functionality, complex tool interactions, or real-time UI updates.
@@ -190,7 +190,7 @@ Agentic tool calling requires **high-quality frontier models** to work reliably.
 - **Improved Context Selection**: Instead of forcing a search before every prompt, the model decides *when* a search or retrieval is actually necessary.
 
 !!! info "Complete Tool Reference"
-This table provides a quick reference for developers. For the complete user-facing guide on how to enable and use these tools, see the [**Tool Calling Modes Guide**](features/plugin/tools/index.md#tool-calling-modes-default-vs-native).
+This table provides a quick reference for developers. For the complete user-facing guide on how to enable and use these tools, see the [**Tool Calling Modes Guide**](index.md#tool-calling-modes-default-vs-native).
 
 #### Complete Event Type Compatibility Matrix
 
@@ -1264,7 +1264,7 @@ When multiple tools define different versions of the same package (e.g., Tool A 
 
 **The only robust solution to this problem is to use an OpenAPI tool server.**
 
-We strongly recommend using an [OpenAPI tool server](features/plugin/tools/openapi-servers/index.md) to avoid these dependency conflicts.
+We strongly recommend using an [OpenAPI tool server](openapi-servers/index.md) to avoid these dependency conflicts.
 
 Keep in mind that as pip is used in the same process as Open WebUI, the UI will be completely unresponsive during the installation.
 

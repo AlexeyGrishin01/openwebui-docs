@@ -30,7 +30,7 @@ You can configure the admin webhook in two ways:
 
 #### Option 2: Through Environment Variables
 
-You can also set the webhook URL using the `WEBHOOK_URL` environment variable. For more details, refer to the [Environment Variable Configuration](getting-started/env-configuration#webhook_url) documentation.
+You can also set the webhook URL using the `WEBHOOK_URL` environment variable. For more details, refer to the [Environment Variable Configuration](../getting-started/env-configuration.md#webhook_url) documentation.
 
 ### Payload Format
 
