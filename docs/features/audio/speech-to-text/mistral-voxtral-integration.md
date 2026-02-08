@@ -102,7 +102,7 @@ If using chat completions method and audio conversion fails:
 - Try recording in a different format (wav or mp3)
 - Switch to the standard transcription method
 
-For more troubleshooting, see the [Audio Troubleshooting Guide](troubleshooting/audio.md).
+For more troubleshooting, see the [Audio Troubleshooting Guide](../../../troubleshooting/audio.md).
 
 ## Comparison with Other STT Options
 

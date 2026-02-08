@@ -29,7 +29,7 @@ This tutorial is a community contribution and is not supported by the Open WebUI
 
 !!! info
 
-Chatterbox can use a good deal of memory and has hardware requirements that might be higher than you're used to with other local TTS solutions. If you have trouble meeting the requirements, you might find [OpenAI Edge TTS](tutorials/text-to-speech/openai-edge-tts-integration) or [Kokoro-FastAPI](tutorials/text-to-speech/Kokoro-FastAPI-integration) to be suitable replacements.
+Chatterbox can use a good deal of memory and has hardware requirements that might be higher than you're used to with other local TTS solutions. If you have trouble meeting the requirements, you might find [OpenAI Edge TTS](openai-edge-tts-integration.md) or [Kokoro-FastAPI](Kokoro-FastAPI-integration.md) to be suitable replacements.
 
 ## ⚡️ Quick start
 
@@ -190,7 +190,7 @@ Chatterbox has higher memory requirements than other TTS solutions:
 - **Recommended:** 8GB+ RAM
 - **GPU:** NVIDIA CUDA or Apple M-series (MPS) recommended
 
-If you experience memory issues, consider using a lighter alternative like [OpenAI Edge TTS](features/audio/text-to-speech/openai-edge-tts-integration.md) or [Kokoro-FastAPI](features/audio/text-to-speech/Kokoro-FastAPI-integration.md).
+If you experience memory issues, consider using a lighter alternative like [OpenAI Edge TTS](openai-edge-tts-integration.md) or [Kokoro-FastAPI](Kokoro-FastAPI-integration.md).
 
 ### Docker Networking
 
@@ -207,4 +207,4 @@ The first TTS request takes significantly longer as the model loads. Check logs 
 docker logs chatterbox-tts-api -f
 ```
 
-For more troubleshooting tips, see the [Audio Troubleshooting Guide](troubleshooting/audio.md).
+For more troubleshooting tips, see the [Audio Troubleshooting Guide](../../../troubleshooting/audio.md).

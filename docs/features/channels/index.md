@@ -157,7 +157,7 @@ Channels support granular access control:
 
 ## Native Channel Awareness (Agentic)
 
-When using a model with **Native Function Calling** enabled (see the [**Central Tool Calling Guide**](features/plugin/tools/index.md#tool-calling-modes-default-vs-native)), models can navigate and search through your organization's channels autonomously.
+When using a model with **Native Function Calling** enabled (see the [**Central Tool Calling Guide**](../plugin/tools/index.md#tool-calling-modes-default-vs-native)), models can navigate and search through your organization's channels autonomously.
 
 ### Available Channel Tools:
 

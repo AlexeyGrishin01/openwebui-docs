@@ -1,18 +1,18 @@
 info
 
-For more information about all environment variables, check out the [environment variable docs page](getting-started/env-configuration/).
+For more information about all environment variables, check out the [environment variable docs page](../../../getting-started/env-configuration.md).
 It is highly recommended to check the environment variable page, to get more details about how to set the variable and what values are expected.
 
 !!! tip
 
 Need help with troubleshooting your SSO setup?
-Check out our [troubleshooting guide](troubleshooting/sso)
+Check out our [troubleshooting guide](../../../troubleshooting/sso.md)
 
 !!! danger Only One OIDC Provider Supported
 Right now, you can only configure **one** OpenID Connect (OIDC) provider at a time via `OPENID_PROVIDER_URL`.
 You cannot have Microsoft **and** Google as OIDC providers simultaneously.
 
-*However, there is a community workaround for using both! See our [Dual OAuth Tutorial](tutorials/tips/dual-oauth-configuration.md) for more details.*
+*However, there is a community workaround for using both! See our [Dual OAuth Tutorial](../../../tutorials/tips/dual-oauth-configuration.md) for more details.*
 
 ## OAuth Configuration Overview
 
@@ -40,7 +40,7 @@ You cannot have Microsoft **and** Google as OIDC providers simultaneously.
    - Set `ENABLE_OAUTH_PERSISTENT_CONFIG=false` to always read from environment variables
    - Update settings through the Admin Panel instead of environment variables
 
-3. **Required Variables**: Always verify you're using the exact variable names from the [environment configuration documentation](getting-started/env-configuration/). Common mistakes include using non-existent variables like `OIDC_CONFIG`.
+3. **Required Variables**: Always verify you're using the exact variable names from the [environment configuration documentation](../../../getting-started/env-configuration.md). Common mistakes include using non-existent variables like `OIDC_CONFIG`.
 
 ### Server-Side OAuth Session Management
 
@@ -55,7 +55,7 @@ To solve issues related to large tokens (e.g., with AD FS group claims exceeding
 
 This system is enabled by default but can be fine-tuned with the environment variables detailed above.
 
-For more information, check out the [environment variable docs page](getting-started/env-configuration/).
+For more information, check out the [environment variable docs page](../../../getting-started/env-configuration.md).
 
 ### Google
 
@@ -118,7 +118,7 @@ The following environment variables are used:
 - Using incorrect redirect URI format - must be exactly `/oauth/oidc/callback`
 
 !!! tip Community Workaround: Multi-Provider OAuth
-If you need to support both Microsoft and Google simultaneously, check out our **[Dual OAuth Configuration Tutorial](tutorials/tips/dual-oauth-configuration.md)**. 
+If you need to support both Microsoft and Google simultaneously, check out our **[Dual OAuth Configuration Tutorial](../../../tutorials/tips/dual-oauth-configuration.md)**. 
 
 ### OAuth Role Management
 

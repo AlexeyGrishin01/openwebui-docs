@@ -149,7 +149,7 @@ Example
 
 ### `__request__`
 
-An instance of `fastapi.Request`. You can read more in the [migration page](features/plugin/migration/index.md) or in [fastapi's documentation](https://fastapi.tiangolo.com/reference/request/).
+An instance of `fastapi.Request`. You can read more in the [migration page](../migration/index.md) or in [fastapi's documentation](https://fastapi.tiangolo.com/reference/request/).
 
 ### `__task__`
 

@@ -10,7 +10,7 @@ Before you can use image generation, you must ensure that the **Image Generation
 
 ## Native Tool-Based Generation (Agentic)
 
-If your model is configured with **Native Function Calling** (see the [**Central Tool Calling Guide**](features/plugin/tools/index.md#tool-calling-modes-default-vs-native)), it can invoke image generation directly as a tool.
+If your model is configured with **Native Function Calling** (see the [**Central Tool Calling Guide**](../plugin/tools/index.md#tool-calling-modes-default-vs-native)), it can invoke image generation directly as a tool.
 
 ### How it works:
 

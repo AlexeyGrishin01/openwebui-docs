@@ -10,9 +10,9 @@ The following speech-to-text providers are supported:
 
 | Service | API Key Required | Guide |
 |---------|------------------|-------|
-| Local Whisper (default) | ❌ | Built-in, see [Environment Variables](features/audio/speech-to-text/env-variables.md) |
-| OpenAI (Whisper API) | ✅ | [OpenAI STT Guide](features/audio/speech-to-text/openai-stt-integration.md) |
-| Mistral (Voxtral) | ✅ | [Mistral Voxtral Guide](features/audio/speech-to-text/mistral-voxtral-integration.md) |
+| Local Whisper (default) | ❌ | Built-in, see [Environment Variables](env-variables.md) |
+| OpenAI (Whisper API) | ✅ | [OpenAI STT Guide](../speech-to-text/openai-stt-integration.md) |
+| Mistral (Voxtral) | ✅ | [Mistral Voxtral Guide](mistral-voxtral-integration.md) |
 | Deepgram | ✅ | — |
 | Azure | ✅ | — |
 
@@ -91,4 +91,4 @@ For smaller models like Whisper, CPU mode often provides comparable performance 
 - **Use a larger Whisper model** — options: `tiny`, `base`, `small`, `medium`, `large`
 - Larger models are more accurate but slower
 
-For more detailed troubleshooting, see the [Audio Troubleshooting Guide](troubleshooting/audio.md).
+For more detailed troubleshooting, see the [Audio Troubleshooting Guide](../../../troubleshooting/audio.md).

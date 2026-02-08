@@ -98,6 +98,6 @@ Samsung Semiconductor plans to continue expanding its AI infrastructure with Ope
 
 !!! tip
 
-**Looking for an [Enterprise Plan](enterprise)?** — **[Speak with Our Sales Team Today!](enterprise)**
+**Looking for an [Enterprise Plan](../index.md)?** — **[Speak with Our Sales Team Today!](../index.md)**
 
 Get **enhanced capabilities**, including **custom theming and branding**, **Service Level Agreement (SLA) support**, **Long-Term Support (LTS) versions**, and **more!**

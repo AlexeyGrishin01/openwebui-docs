@@ -3,7 +3,7 @@
 This guide covers how to use OpenAI's official Text-to-Speech API with Open WebUI. This is the simplest setup if you already have an OpenAI API key.
 
 !!! tip Looking for STT?
-See the companion guide: [Using OpenAI for Speech-to-Text](features/audio/speech-to-text/openai-stt-integration.md)
+See the companion guide: [Using OpenAI for Speech-to-Text](../speech-to-text/openai-stt-integration.md)
 
 ## Requirements
 
@@ -143,11 +143,11 @@ OpenAI has rate limits on the Audio API. If you're hitting limits:
 - Consider caching common phrases
 - Use `tts-1` instead of `tts-1-hd` (uses fewer tokens)
 
-For more troubleshooting, see the [Audio Troubleshooting Guide](troubleshooting/audio.md).
+For more troubleshooting, see the [Audio Troubleshooting Guide](../../../troubleshooting/audio.md).
 
 ## Cost Considerations
 
 OpenAI charges per character for TTS. See [OpenAI Pricing](https://platform.openai.com/docs/pricing) for current rates. Note that `tts-1-hd` costs more than `tts-1`.
 
 !!! info
-For a free alternative, consider [OpenAI Edge TTS](features/audio/text-to-speech/openai-edge-tts-integration.md) which uses Microsoft's free Edge browser TTS.
+For a free alternative, consider [OpenAI Edge TTS](openai-edge-tts-integration.md) which uses Microsoft's free Edge browser TTS.

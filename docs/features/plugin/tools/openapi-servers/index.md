@@ -20,10 +20,10 @@ By leveraging OpenAPI, we eliminate the need for a proprietary or unfamiliar com
 
 While OpenAPI tools are powerful for extending Open WebUI with external services, they have some constraints compared to native Python tools:
 
-- **No real-time UI events**: OpenAPI tools cannot emit status updates, notifications, or request user input via the [event system](features/plugin/development/events.md). They communicate via standard HTTP request/response only.
+- **No real-time UI events**: OpenAPI tools cannot emit status updates, notifications, or request user input via the [event system](../../development/events.md). They communicate via standard HTTP request/response only.
 - **No streaming output**: Tool responses are returned as complete results, not streamed token-by-token.
 
-If you need real-time UI feedback (progress updates, confirmations, streaming), consider implementing your tool as a [native Python Tool](features/plugin/tools/development.md) instead.
+If you need real-time UI feedback (progress updates, confirmations, streaming), consider implementing your tool as a [native Python Tool](../development.md) instead.
 
 ## 🚀 Quickstart
 

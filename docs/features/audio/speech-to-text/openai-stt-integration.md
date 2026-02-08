@@ -3,7 +3,7 @@
 This guide covers how to use OpenAI's Whisper API for Speech-to-Text with Open WebUI. This provides cloud-based transcription without needing local GPU resources.
 
 !!! tip Looking for TTS?
-See the companion guide: [Using OpenAI for Text-to-Speech](features/audio/text-to-speech/openai-tts-integration.md)
+See the companion guide: [Using OpenAI for Text-to-Speech](../text-to-speech/openai-tts-integration.md)
 
 ## Requirements
 
@@ -106,7 +106,7 @@ Choose **Local Whisper** if:
 
 1. Ensure you're using HTTPS or localhost
 2. Check browser microphone permissions
-3. See [Microphone Access Issues](troubleshooting/audio.md#microphone-access-issues)
+3. See [Microphone Access Issues](../../../troubleshooting/audio.md#microphone-access-issues)
 
 ### Transcription Errors
 
@@ -118,7 +118,7 @@ Choose **Local Whisper** if:
 
 OpenAI's Whisper API automatically detects language. If you need to force a specific language, consider using Local Whisper with the `WHISPER_LANGUAGE` environment variable.
 
-For more troubleshooting, see the [Audio Troubleshooting Guide](troubleshooting/audio.md).
+For more troubleshooting, see the [Audio Troubleshooting Guide](../../../troubleshooting/audio.md).
 
 ## Cost Considerations
 

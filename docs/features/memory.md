@@ -17,7 +17,7 @@ Users can manually add, edit, or delete memories by navigating to:
 
 ### 2. Native Memory Tools (Agentic Mode)
 
-When using a model with **Native Function Calling (Agentic Mode)** enabled, quality models can manage your memory autonomously using three built-in tools. For a detailed breakdown of how administrators can configure and manage these system-level tools, see the [**Central Tool Calling Guide**](features/plugin/tools/index.md#tool-calling-modes-default-vs-native).
+When using a model with **Native Function Calling (Agentic Mode)** enabled, quality models can manage your memory autonomously using three built-in tools. For a detailed breakdown of how administrators can configure and manage these system-level tools, see the [**Central Tool Calling Guide**](plugin/tools/index.md#tool-calling-modes-default-vs-native).
 
 !!! tip Quality Models for Memory Management
 Autonomous memory management works best with frontier models (GPT-5, Claude 4.5+, Gemini 3+) that can intelligently decide what facts are worth saving and when to recall relevant memories. Small local models may struggle with appropriate memory selection.
@@ -40,7 +40,7 @@ Autonomous memory management works best with frontier models (GPT-5, Claude 4.5+
 3.  **Quality Models Required**: To unlock these features effectively, use frontier models with strong reasoning capabilities (e.g., GPT-5, Claude 4.5 Sonnet, Gemini 3 Flash, MiniMax M2.1) for the best experience. Small local models may not effectively manage memories autonomously.
 
 !!! info "Central Tool Documentation"
-For complete details on all built-in agentic tools (including memory, web search, and knowledge bases) and how to configure them, see the [**Native/Agentic Mode Tools Guide**](features/plugin/tools/index.md#built-in-system-tools-nativeagentic-mode).
+For complete details on all built-in agentic tools (including memory, web search, and knowledge bases) and how to configure them, see the [**Native/Agentic Mode Tools Guide**](plugin/tools/index.md#built-in-system-tools-nativeagentic-mode).
 
 ## Administrative Controls
 
@@ -50,13 +50,13 @@ Administrators have full control over the Memory feature, including the ability 
 
 The Memory feature can be toggled on or off for the entire instance. When disabled, the "Personalization" tab is hidden from all users, and the memory-related API endpoints are blocked.
 - **Admin UI**: Admin Panel > Settings > General > Features > **Memories**
-- **Environment Variable**: [`ENABLE_MEMORIES`](getting-started/env-configuration.md#enable_memories) (Default: `True`)
+- **Environment Variable**: [`ENABLE_MEMORIES`](../getting-started/env-configuration.md#enable_memories) (Default: `True`)
 
 ### Granular Permissions
 
 Administrators can also control Memory access on a per-role or per-group basis from the Permissions interface.
 - **Admin UI**: Admin Panel > Users > Permissions > Features > **Memories**
-- **Environment Variable**: [`USER_PERMISSIONS_FEATURES_MEMORIES`](getting-started/env-configuration.md#user_permissions_features_memories) (Default: `True`)
+- **Environment Variable**: [`USER_PERMISSIONS_FEATURES_MEMORIES`](../getting-started/env-configuration.md#user_permissions_features_memories) (Default: `True`)
 
 ## Privacy & Security
 

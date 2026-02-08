@@ -178,4 +178,4 @@ SCIM works best when combined with SSO (Single Sign-On). A typical setup include
 
 This ensures users are automatically created and can immediately authenticate using their corporate credentials.
 
-For SSO configuration, see the [SSO documentation](features/auth/sso/).
+For SSO configuration, see the [SSO documentation](sso/index.md).

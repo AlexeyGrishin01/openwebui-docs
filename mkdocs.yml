@@ -7,8 +7,13 @@ theme:
   name: material
   logo: assets/images/logo.png
   favicon: assets/images/favicon.png
+  font:
+    text: Inter
+    code: JetBrains Mono
 
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.expand
     - navigation.sections
     - navigation.top
@@ -31,6 +36,9 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Light mode
+
+extra_css:
+  - assets/stylesheets/extra.css
 
 markdown_extensions:
   - admonition
@@ -60,8 +68,40 @@ nav:
 
   - Getting Started:
       - Overview: getting-started/index.md
-      - Quick Start: getting-started/quick-start/index.md
-      - Advanced Topics: getting-started/advanced-topics/index.md
+      - Quick Start:
+          - Overview: getting-started/quick-start/index.md
+          - Starting with OpenAI: getting-started/quick-start/starting-with-openai.md
+          - Starting with OpenAI-Compatible: getting-started/quick-start/starting-with-openai-compatible.md
+          - Starting with Ollama: getting-started/quick-start/starting-with-ollama.md
+          - Starting with llama.cpp: getting-started/quick-start/starting-with-llama-cpp.md
+          - Starting with vLLM: getting-started/quick-start/starting-with-vllm.md
+          - Starting with Functions: getting-started/quick-start/starting-with-functions.md
+          - Docker:
+              - Docker Compose: getting-started/quick-start/tab-docker/DockerCompose.md
+              - Docker Desktop Extension: getting-started/quick-start/tab-docker/DockerDesktopExtension.md
+              - Docker Swarm: getting-started/quick-start/tab-docker/DockerSwarm.md
+              - Docker Updating: getting-started/quick-start/tab-docker/DockerUpdating.md
+              - Manual Docker: getting-started/quick-start/tab-docker/ManualDocker.md
+              - Podman: getting-started/quick-start/tab-docker/Podman.md
+              - Podman (KubePlay): getting-started/quick-start/tab-docker/PodmanKubePlay.md
+              - Podman Quadlet: getting-started/quick-start/tab-docker/PodmanQuadlet.md
+              - WSL: getting-started/quick-start/tab-docker/WSL.md
+          - Kubernetes:
+              - Helm: getting-started/quick-start/tab-kubernetes/Helm.md
+          - Python:
+              - Conda: getting-started/quick-start/tab-python/Conda.md
+              - Venv: getting-started/quick-start/tab-python/Venv.md
+              - Uv: getting-started/quick-start/tab-python/Uv.md
+              - Python Updating: getting-started/quick-start/tab-python/PythonUpdating.md
+      - Advanced Topics:
+          - Overview: getting-started/advanced-topics/index.md
+          - Development: getting-started/advanced-topics/development.md
+          - HTTPS Encryption: getting-started/advanced-topics/https-encryption.md
+          - Logging: getting-started/advanced-topics/logging.md
+          - Network Diagrams: getting-started/advanced-topics/network-diagrams.md
+          - Monitoring:
+              - Overview: getting-started/advanced-topics/monitoring/index.md
+              - OpenTelemetry: getting-started/advanced-topics/monitoring/otel.md
       - Environment Config: getting-started/env-configuration.md
       - API Endpoints: getting-started/api-endpoints.md
       - Updating: getting-started/updating.md
@@ -115,4 +155,3 @@ nav:
       - RAG: troubleshooting/rag.md
       - SSO: troubleshooting/sso.md
       - Web Search: troubleshooting/web-search.md
-

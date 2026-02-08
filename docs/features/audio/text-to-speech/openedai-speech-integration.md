@@ -214,7 +214,7 @@ networks:
 
 Then reference `http://openedai-speech:8000/v1` instead of `localhost`.
 
-For more troubleshooting tips, see the [Audio Troubleshooting Guide](troubleshooting/audio.md).
+For more troubleshooting tips, see the [Audio Troubleshooting Guide](../../../troubleshooting/audio.md).
 
 ## FAQ
 
@@ -228,7 +228,7 @@ The configuration files, which define the available voices and their properties,
 
 ## Additional Resources
 
-For more information on configuring Open WebUI to use `openedai-speech`, including setting environment variables, see the [Open WebUI documentation](getting-started/env-configuration#text-to-speech).
+For more information on configuring Open WebUI to use `openedai-speech`, including setting environment variables, see the [Open WebUI documentation](../../../getting-started/env-configuration.md#text-to-speech).
 
 For more information about `openedai-speech`, please visit the [GitHub repository](https://github.com/matatonic/openedai-speech).
 

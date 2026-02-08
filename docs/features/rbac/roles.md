@@ -157,4 +157,4 @@ spec:
 - **Password Hashing**: The password is securely hashed using the same mechanism as manual account creation, ensuring security.
 - **One-Time Operation**: This is a one-time operation on first startup. Subsequent restarts with the same environment variables will not modify the existing admin account.
 
-For complete documentation on these environment variables, see the [Environment Configuration Guide](../getting-started/env-configuration.md#webui_admin_email).
+For complete documentation on these environment variables, see the [Environment Configuration Guide](../../getting-started/env-configuration.md#webui_admin_email).

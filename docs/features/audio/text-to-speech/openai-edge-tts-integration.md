@@ -144,4 +144,4 @@ If this works but Open WebUI still can't connect, the issue is network-related b
 3. Check Open WebUI container logs: `docker logs open-webui`
 4. Check openai-edge-tts logs: `docker logs openai-edge-tts` (or your container name)
 
-For more troubleshooting tips, see the [Audio Troubleshooting Guide](troubleshooting/audio.md).
+For more troubleshooting tips, see the [Audio Troubleshooting Guide](../../../troubleshooting/audio.md).

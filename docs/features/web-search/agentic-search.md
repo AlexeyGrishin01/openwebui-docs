@@ -6,7 +6,7 @@ Open WebUI's web search has evolved from simple result injection to a fully **ag
 Agentic web search works best with frontier models like **GPT-5**, **Claude 4.5+**, **Gemini 3+**, or **MiniMax M2.1** that can reason about search results and decide when to dig deeper. Small local models may struggle with the multi-step reasoning required.
 
 !!! info "Central Tool Documentation"
-For comprehensive information about all built-in agentic tools (including web search, knowledge bases, memory, and more), see the [**Native/Agentic Mode Tools Guide**](features/plugin/tools/index.md#built-in-system-tools-nativeagentic-mode).
+For comprehensive information about all built-in agentic tools (including web search, knowledge bases, memory, and more), see the [**Native/Agentic Mode Tools Guide**](../plugin/tools/index.md#built-in-system-tools-nativeagentic-mode).
 
 ## Native Mode vs. Traditional RAG
 
@@ -20,7 +20,7 @@ For comprehensive information about all built-in agentic tools (including web se
 
 ## How to Enable Agentic Behavior
 
-To unlock these features, your model must support native tool calling and have strong reasoning capabilities (e.g., GPT-5, Claude 4.5 Sonnet, Gemini 3 Flash, MiniMax M2.1). Administrator-level configuration for these built-in system tools is handled via the [**Central Tool Calling Guide**](features/plugin/tools/index.md#tool-calling-modes-default-vs-native).
+To unlock these features, your model must support native tool calling and have strong reasoning capabilities (e.g., GPT-5, Claude 4.5 Sonnet, Gemini 3 Flash, MiniMax M2.1). Administrator-level configuration for these built-in system tools is handled via the [**Central Tool Calling Guide**](../plugin/tools/index.md#tool-calling-modes-default-vs-native).
 
 1.  **Enable Web Search**: Ensure a search engine is configured in **Admin Panel > Settings > Web Search**.
 2.  **Enable Native Mode (Agentic Mode)**:
@@ -130,9 +130,9 @@ This cycle repeats autonomously until the model has comprehensive, verified info
 This iterative loop of **Thought → Action → Thought** continues until the model has sufficient information to answer your request with maximum accuracy.
 
 !!! info "Learn More About Interleaved Thinking"
-For more details on how Interleaved Thinking works across all agentic tools (not just web search), see the [**Interleaved Thinking Guide**](features/plugin/tools/index.md#interleaved-thinking).
+For more details on how Interleaved Thinking works across all agentic tools (not just web search), see the [**Interleaved Thinking Guide**](../plugin/tools/index.md#interleaved-thinking).
 
 ## Next Steps
 
 - **Save your findings**: Learn how to [save web search results directly to your Knowledge Base](save-to-knowledge.md).
-- **Troubleshoot**: If you encounter issues, check the [Web Search Troubleshooting Guide](../troubleshooting/web-search.md).
+- **Troubleshoot**: If you encounter issues, check the [Web Search Troubleshooting Guide](../../troubleshooting/web-search.md).

@@ -8,9 +8,9 @@ Many of our users work in environments where privacy isn't optional, it's essent
 
 See how Samsung Semiconductor built a secure, self-hosted AI platform to boost R&D efficiency, reducing workflow times **from days to hours**.
 
-[<img src="assets/images/hero.png" alt="Samsung Semiconductor Case Study">](enterprise/customers/samsung-semiconductor.md)
+[<img src="assets/images/hero.png" alt="Samsung Semiconductor Case Study">](samsung-semiconductor.md)
 
-**[📖 Read the Full Case Study →](enterprise/customers/samsung-semiconductor.md)**
+**[📖 Read the Full Case Study →](samsung-semiconductor.md)**
 
 ### Share Your Story
 
