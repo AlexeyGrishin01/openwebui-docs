@@ -1,0 +1,48 @@
+:root {
+  --md-default-fg-color: #0f172a;
+  --md-default-bg-color: #ffffff;
+  --md-code-bg-color: #f1f5f9;
+  --md-accent-fg-color: #4f46e5;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-fg-color: #e2e8f0;
+  --md-default-bg-color: #0b0f19;
+  --md-code-bg-color: #111827;
+  --md-accent-fg-color: #818cf8;
+}
+
+.md-header,
+.md-tabs {
+  backdrop-filter: blur(12px);
+}
+
+.md-header {
+  background: rgba(15, 23, 42, 0.92);
+}
+
+[data-md-color-scheme="default"] .md-header {
+  background: rgba(2, 6, 23, 0.96);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: -0.02em;
+}
+
+.md-typeset a {
+  text-decoration: none;
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+
+.md-nav__title {
+  font-weight: 600;
+}
+
+.md-typeset code {
+  border-radius: 6px;
+}

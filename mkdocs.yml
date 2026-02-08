@@ -7,8 +7,13 @@ theme:
   name: material
   logo: assets/images/logo.png
   favicon: assets/images/favicon.png
+  font:
+    text: Inter
+    code: JetBrains Mono
 
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.expand
     - navigation.sections
     - navigation.top
@@ -31,6 +36,9 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Light mode
+
+extra_css:
+  - assets/stylesheets/extra.css
 
 markdown_extensions:
   - admonition
